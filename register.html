@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Matrimony</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Matrimony Logo" class="logo-img">
+            </div>
+                <p>Already a member? <a href="login.html">Login here</a></p>
+            
+        </div>
+    </header>
+      
+    <div class="main-container">
+    
+        <div class="quote-section">
+            <img src="loginbg.png" alt="image" class="responsive-image">
+            <div class="quote-text">
+            <h2>“Finding the right partner is the first step towards happiness.”</h2>
+            <p>Join our Matrimony website and embark on your journey to find your perfect match.</p>
+            <p> We're here to help you make the right connections.</p>
+        </div>
+        <img src="regbg.jpg" alt="bg" class="responsive-image">
+        </div>
+
+    <section class="register-section">
+        <div class="register-box">
+            <h2>Create an Account</h2>
+            <form action="welcome.html" method="get" >
+
+                <label for="profile">Profile created by</label>
+                <select id="SELECT" name="SELECT" required>
+                    <option value="">Select</option>
+                    <option value="self">Self</option>
+                    <option value="Parents">Parents</option>
+                    <option value="Brother">Brother</option>
+                    <option value="Sister">Sister</option>
+                    <option value="Others">Others</option>
+                </select>
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value=""disabled selected>Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="marital-status">Marital Status</label>
+                <select id="marital-status" name="marital-status" required>
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Divorced">Divorced</option>
+                    <option value="Widowed">Widowed</option>
+                </select>
+
+                <label for="physical-status">Physical Status</label>
+                <select id="physical-status" name="physical-status" required>
+                    <option value="Normal">Normal</option>
+                    <option value="Physically Challenged">Physically Challenged</option>
+                </select>
+
+                <label for="religion">Religion</label>
+                <input type="text" id="religion" name="religion" placeholder="Enter your religion" required>
+
+                <label for="mother-tongue">Mother Tongue</label>
+                <input type="text" id="mother-tongue" name="mother-tongue" placeholder="Enter your mother tongue" required>
+
+                <label for="caste">Caste</label>
+                <input type="text" id="caste" name="caste" placeholder="Enter your caste" required>
+
+                <label for="subcaste">Subcaste</label>
+                <input type="text" id="subcaste" name="subcaste" placeholder="Enter your subcaste" required>
+
+                <label for="education">Education</label>
+                <input type="text" id="education" name="education" placeholder="Enter your highest education" required>
+
+                <label for="education-detail">Education Details</label>
+                <textarea id="education-detail" name="education-detail" placeholder="Provide details of your education" required></textarea>
+
+                <label for="employed-in">Employed In</label>
+                <input type="text" id="employed-in" name="employed-in" placeholder="Enter your employer or company" required>
+
+                <label for="monthly-salary">Monthly Salary</label>
+                <input type="text" id="monthly-salary" name="monthly-salary" placeholder="Enter your monthly salary" required>
+
+                <label for="country-living">Bride/Groom Country Living In</label>
+                <input type="text" id="country-living" name="country-living" placeholder="Enter the country you live in" required>
+                <button type="submit" class="button">Register</button>
+
+                <div class="links">
+                    <p>Already have an account? <a href="login.html">Login here</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+    </div>
+        <footer>
+            <p>&copy; 2024 Matrimony. All rights reserved.</p>
+        </footer>
+
+    
+
+    
+</body>
+</html>
